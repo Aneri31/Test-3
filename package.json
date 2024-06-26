@@ -1,0 +1,18 @@
+{
+  "name": "testing",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx playwright test tests/login.test.js && npx playwright test tests/home.test.js",
+    "test:login": "npx playwright test tests/login.test.js",
+    "test:home": "npx playwright test tests/home.test.js"
+  },
+  "author": "Your Name",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.44.1",
+    "playwright": "^1.44.1"
+  },
+  "keywords": ["testing", "playwright", "automated-tests"],
+  "description": "Automated tests for the testing project using Playwright."
+}
